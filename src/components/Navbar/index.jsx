@@ -3,7 +3,7 @@ import './index.scss'
 
 export default function Navbar() {
   return (
-    <div className='navbar-section'>
+    <div className='navbar'>
       <div>menu</div>
       <div>Flirty Flowers</div>
       <div>cart</div>

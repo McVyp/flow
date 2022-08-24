@@ -35,7 +35,7 @@ export default function Gallery() {
   return (
     
     <div className='section-wrapper gallery-wrap'>
-      Gallery
+      
     </div>
   )
 }

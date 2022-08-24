@@ -4,7 +4,7 @@ import './index.scss'
 export default function Footer() {
   return (
     <div className='footer-section'>
-      Footer
+      
     </div>
   )
 }

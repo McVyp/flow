@@ -36,16 +36,16 @@ const images = [
 function GalleryItem({src, category, subtitle, title, updateActiveImage, index}){
   return (
     <div className='gallery-item-wrapper'>
-      <div className='gallery-item'>
-        <div className='gallery-item-info'>
-          <h1 className='gallery-info-title'>{title}</h1>
-          <h6 className='gallery-info-subtitle'>{subtitle}</h6>
-          <p className='gallery-info-category'>
-            {category}
-          </p>
+      <div />
+        <div className='gallery-item'>
+          <div className='gallery-item-info'>
+            <h1 className='gallery-info-title'>{title}</h1>
+            <h6 className='gallery-info-subtitle'>{subtitle}</h6>
+            <p className='gallery-info-category'>{category}</p>
+          </div>
+          <div className='gallery-item-image' style={{backgroundImage: `url(${src})`}}></div>
         </div>
-        <div className='gallery-item-image' style={{backgroundImage: `url(${src})`}}></div>
-      </div>
+      <div />
     </div>
   )
 
